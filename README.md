@@ -1,6 +1,28 @@
+## What is this?
+
+Multiple times I have been forced to explain the complexity of AWS Cloud Security for a DevOps or infraestructure engineer.
+But how that complexity could be understood with just a few steps and a general vision for someone who is trying to start doing this job in a day to day basis?
+For this I divided the DevOps security for  AWS Cloud in six aspects:
+
+- I-   Security Frameworks and  Guidelines(OWASP, NIST, CIS and also AWS Security Best Practice for each service WhitePapers and blogs)
+- II-  AWS Compliances and Standards for Certification (HIPAA,PCI, FedRAMP)
+- III- AWS Native Security Tools
+- IV-  AWS DevOps Security  and DevOps Security Pipeline
+- V-   AWS CLI 
+- VI-  Python tools and development
+
+## Implications 
+
+As you can see from above there is a lot of implications in those six requirements.
+
+Basically it's required for a security engineer not only the knowledge and understanding of security, but also a high level of skill for development, understanding of compliances tools and standards, knowledge of Security Frameworks , in top of undersatnding of AWS native tools, creation of DevOps Security Pipeline
+creation of IaC(terraform , cloud formation) and its verification, and  use of aws cli.
+
+Below are a more a more descriptive aspect of each point 
+
 ## AWS Security Infraestructure
 
-- I-   Security Frameworks and  Guidelines(OWASP, NIST, CIS and also AWS Security Best Practice for each service)
+- I-   Security Frameworks and  Guidelines(OWASP, NIST, CIS and also AWS Security Best Practice for each service WhitePapers and blogs)
 - II-  AWS Compliances and Standards for Certification (HIPAA,PCI, FedRAMP)
 - III- AWS Native Security Tools
 - IV-  AWS DevOps Security  and DevOps Security Pipeline
