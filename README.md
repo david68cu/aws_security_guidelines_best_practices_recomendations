@@ -1,42 +1,48 @@
-## What is this?
+# What is this?
 
-Multiple times I have been forced to explain the complexity of AWS Cloud Security for a DevOps or infraestructure engineer.
+Multiple times I have been forced to explain the complexity of AWS Cloud Security for a DevOps or infrastructure engineer.
 But how that complexity could be understood with just a few steps and a general vision for someone who is trying to start doing this job in a day to day basis?
-For this I divided the DevOps security for  AWS Cloud in six aspects:
+For this I divided the DevOps security for  AWS Cloud in six aspects and two part 
+
+## Part I . Technical Competencies
 
 - I-   Security Frameworks and  Guidelines(OWASP, NIST, CIS and also AWS Security Best Practice for each service WhitePapers and blogs)
-- II-  AWS Compliances and Standards for Certification (HIPAA,PCI, FedRAMP)
+- II-  AWS Compliances and Standards for Certification (HIPAA, PCI, FedRAMP)
 - III- AWS Native Security Tools
 - IV-  AWS DevOps Security  and DevOps Security Pipeline
-- V-   AWS CLI 
+- V-   AWS CLI
 - VI-  Python tools and development
 
-## Implications 
+## Part II . Understanding Cloud Computing Models , Customer Responsibilities, and AWS Security Competency
+
+## Part I 
+
+## Implications
 
 As you can see from above there is a lot of implications in those six requirements.
 
-Basically it's required for a security engineer not only the knowledge and understanding of security, but also a high level of skill for development, understanding of compliances tools and standards, knowledge of Security Frameworks , in top of undersatnding of AWS native tools, creation of DevOps Security Pipeline
+Basically it's required for a security engineer not only the knowledge and understanding of security, but also a high level of skill for development, understanding of compliances tools and standards, knowledge of Security Frameworks , in top of understanding of AWS native tools, creation of DevOps Security Pipeline
 creation of IaC(terraform , cloud formation) and its verification, and  use of aws cli.
 
 Below are a more a more descriptive aspect of each point 
 
-## AWS Security Infraestructure
+## AWS Security Infrastructure
 
 - I-   Security Frameworks and  Guidelines(OWASP, NIST, CIS and also AWS Security Best Practice for each service WhitePapers and blogs)
 - II-  AWS Compliances and Standards for Certification (HIPAA,PCI, FedRAMP)
 - III- AWS Native Security Tools
 - IV-  AWS DevOps Security  and DevOps Security Pipeline
-- V-   AWS CLI 
-- VI-  Python tools and development 
+- V-   AWS CLI
+- VI-  Python tools and development
 
 
 ### I- Security Frameworks and  Guidelines(OWASP, NIST, CIS)
 
 - OWASP
-   - Container Security Verification Standard 
-   - (https://github.com/OWASP/Container-Security-Verification-Standard )
+  - Container Security Verification Standard(OWASP CSVS)
+  - [OWASP CSVS url](https://github.com/OWASP/Container-Security-Verification-Standard)
 
-- NIST 
+- NIST
   - NIST Special Publication 800-190
   - Application Container Security Guide
   - (https://nvlpubs.nist.gov/nistpubs/specialpublications/nist.sp.800-190.pdf)
@@ -57,8 +63,8 @@ Below are a more a more descriptive aspect of each point
   - [Security Best Practice for Kubernettes EKS](https://docs.aws.amazon.com/eks/latest/userguide/best-practices-security.html)
   - [Security Best Practice for Kubernettes ECS](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/security.html)
 
-- AWS Whitepapers 
-   - A collection of AWS Whitepapers where we can filter for security concersn at https://aws.amazon.com/whitepapers/
+- AWS Whitepapers
+  - A collection of AWS Whitepapers where we can filter for security concersn at https://aws.amazon.com/whitepapers/
 
 - AWS Security Blog
   - AWS Security Blog: https://aws.amazon.com/blogs/security/tag/devsecops/
@@ -76,17 +82,16 @@ Below are a more a more descriptive aspect of each point
 ### III- AWS Native Security Tools
 
 -	Each Service has its own security concerns that we should look in AWS documentation.
-
-   -	AWS CloudWatch:   https://aws.amazon.com/cloudwatch/
-   -	AWS CloudTrail:   https://aws.amazon.com/cloudtrail/
-   -	AWS Config:       https://aws.amazon.com/config/
-   -	AWS Inspector:    https://aws.amazon.com/inspector/
-   -	AWS Guard Duty:   https://aws.amazon.com/guardduty/
-   -	AWS WAF:          https://aws.amazon.com/waf
-   -	AWS Shield:       https://aws.amazon.com/shield/
-   -	AWS Security Hub: https://aws.amazon.com/security-hub/
-   -	AWS Macie:        https://aws.amazon.com/macie/
-   -	AWS X-Ray:        https://aws.amazon.com/xray/
+  -	AWS CloudWatch:   https://aws.amazon.com/cloudwatch/
+  -	AWS CloudTrail:   https://aws.amazon.com/cloudtrail/
+  -	AWS Config:       https://aws.amazon.com/config/
+  -	AWS Inspector:    https://aws.amazon.com/inspector/
+  -	AWS Guard Duty:   https://aws.amazon.com/guardduty/
+  -	AWS WAF:          https://aws.amazon.com/waf
+  -	AWS Shield:       https://aws.amazon.com/shield/
+  -	AWS Security Hub: https://aws.amazon.com/security-hub/
+  -	AWS Macie:        https://aws.amazon.com/macie/
+  -	AWS X-Ray:        https://aws.amazon.com/xray/
 
 ### IV- AWS DevOps Security  and DevOps Security Pipeline
 
@@ -102,7 +107,7 @@ Four Aspect to take into account for a technician from a practical perspective
 
 #### IV.1- AWS DevOps Security Pipeline
 
-![Dev Sec Operations Pipeline](DevSecOpsPipline.png)
+![Dev Sec Operations Pipeline](images/DevSecOpsPipline.png)
 
 #### IV.2 Infrastructure as Code Scanning Tools
 
@@ -139,13 +144,31 @@ Chef InSpec: execute scans against local or remote machines .
 ## VI- Python tools, programming and integrations
 
 - One of the most powerful skills you can have is being a good developer
-- You are able to create APIs, Cloud Applications , Serverless, Containers, Understan IaC CloudFormation or Terrafoem and Integrate AI/ML and understand architetcure principles in AWS
-- You use an arsenal of Ofensive, Defensive and Auditing tools , like the ones described below
-  - https://github.com/toniblyx/my-arsenal-of-aws-security-tools
+- You are able to create APIs, Cloud Applications , Serverless, Containers, Understand IaC CloudFormation or Terraform and Integrate AI/ML and understand architecture principles in AWS
+- You use an arsenal of Offensive, Defensive and Auditing tools , like the ones described below
+  - [Python Security Tools for AWS](https://github.com/toniblyx/my-arsenal-of-aws-security-tools)
 - You create your own tools when needed
-   
 
+## Part 2- Understanding Cloud Computing Models , Customer Responsibilities, and AWS Security Competency
 
+### Cloud Computing Models
 
+![Cloud Computing Models](images/cloud_computing_models_iaas-paas-saas-comparison.jpg)
 
+### Cloud Computing Models , vs User/Cloud Provider Responsibilities
 
+![Cloud Computing Models , vs User/Cloud Provider Responsibilities](images/cloud_computing_models_vs_responsabilities.png)
+
+### Differences between PaaS vs Serverless
+
+![Differences between PaaS vs Serverless](images/serverless_vs_PaaS.png)
+
+## Understanding Strategy Security and AWS Security Competences
+
+### AWS Strategic Security
+
+![AWS Strategic Security](images/strategic_security.png)
+
+### AWS Strategic Competences
+
+![AWS Strategic Competences](images/strategic_security.png)
