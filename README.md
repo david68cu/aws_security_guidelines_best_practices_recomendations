@@ -138,6 +138,13 @@ Chef InSpec: execute scans against local or remote machines .
 
 ## VI- Python tools, programming and integrations
 
+- One of the most powerful skills you can have is being a good developer
+- You are able to create APIs, Cloud Applications , Serverless, Containers, Understan IaC CloudFormation or Terrafoem and Integrate AI/ML and understand architetcure principles in AWS
+- You use an arsenal of Ofensive, Defensive and Auditing tools , like the ones described below
+  - https://github.com/toniblyx/my-arsenal-of-aws-security-tools
+- You create your own tools when needed
+   
+
 
 
 
