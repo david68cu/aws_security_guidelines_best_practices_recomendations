@@ -38,6 +38,8 @@ Below are a more a more descriptive aspect of each point
 
 ### I- Security Frameworks and  Guidelines(OWASP, NIST, CIS)
 
+You could follow the following guidelines to stablishes the security of your cloud infraestructure
+
 - OWASP
   - Container Security Verification Standard(OWASP CSVS)
   - [OWASP CSVS url](https://github.com/OWASP/Container-Security-Verification-Standard)
@@ -69,6 +71,10 @@ Below are a more a more descriptive aspect of each point
 - AWS Security Blog
   - AWS Security Blog: https://aws.amazon.com/blogs/security/tag/devsecops/
 
+
+Take into account hat compliance Standards that we will analize in point II , as part of the regulatory obligations to be met by certains sectors or entity 
+could require an increase in the level of security, or even forbid the use of certains Cloud Offerings  alltoghether or limit the use of those offering to certain regions etc.
+
 ## II- AWS Compliances and Standards for Certification (HIPAA,PCI, FedRAMP)
 
  [References](https://aws.amazon.com/compliance/)
@@ -78,6 +84,28 @@ Below are a more a more descriptive aspect of each point
 - 3	HIPAA https://aws.amazon.com/compliance/hipaa-compliance/
 - 4	PCI https://aws.amazon.com/compliance/pci-dss-level-1-faqs/
 - 5	FedRAMP https://aws.amazon.com/compliance/fedramp/
+- 6 AWS Services in Scope by Compliance Program https://aws.amazon.com/compliance/services-in-scope/
+
+Compliance Programs could :
+
+- limit the use or certain cloud offering , 
+- require different(usually higher) securiry requirements than the ones you originally implemented
+- require certains procedures
+
+**Examples**:
+
+- **Ex1: FedRamps will limit AWS Cloud Offering to the following regions, that are the only regions FedRamps compatible:
+
+ - AWS GovCloud (US).
+ - AWS US East/West regions.
+
+- **Ex2: FedRamps could  ask  certains level of AWS Server Side,Client Side encryption
+
+- **Ex3: FedRamps forbits the use of certain cloud offering in their zone: Example inside AWS GovCloud (US) we can not use Macie or CloudFront
+
+- **Ex4: FedRamps would require a revision if you want to use certain cloud offering : For example to use AWS-XRay it requires a JAB Review 
+
+
 
 ### III- AWS Native Security Tools
 
