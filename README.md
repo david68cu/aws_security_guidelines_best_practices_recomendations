@@ -82,6 +82,9 @@ could require an increase in the level of security, or even forbid the use of ce
 - 1	The Federal Risk and Authorization Management Program (FedRAMP) is a US government-wide program that delivers a standard approach to the security assessment, authorization, and continuous monitoring for cloud products and services
 - 2	FedRAMP documents https://d1.awsstatic.com/whitepapers/compliance/Guidance_for_Trusted_Internet_Connection_TIC_Readiness_on_AWS.pdf
 - 3	HIPAA https://aws.amazon.com/compliance/hipaa-compliance/
+  - 3.1 HIPAA Architecture Compliance https://aws.amazon.com/quickstart/architecture/compliance-hipaa/
+    - 3.1.1 See in above link Security Mapping Control and Deployment Guide
+  - 3.2 AWS HIPAA Compliance Whitepaper https://d1.awsstatic.com/whitepapers/compliance/AWS_HIPAA_Compliance_Whitepaper.pdf
 - 4	PCI https://aws.amazon.com/compliance/pci-dss-level-1-faqs/
 - 5	FedRAMP https://aws.amazon.com/compliance/fedramp/
 - 6 AWS Services in Scope by Compliance Program https://aws.amazon.com/compliance/services-in-scope/
