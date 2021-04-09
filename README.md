@@ -4,36 +4,72 @@ Multiple times I have been forced to explain the complexity of AWS Cloud Securit
 But how that complexity could be understood with just a few steps and a general vision for someone who is trying to start doing this job in a day to day basis?
 For this I divided the DevOps security for  AWS Cloud in six aspects and two part 
 
-## Part I . Technical Competencies
+## Index
 
-- I-   Security Frameworks and  Guidelines(OWASP, NIST, CIS and also AWS Security Best Practice for each service WhitePapers and blogs)
-- II-  AWS Compliances and Standards for Certification (HIPAA, PCI, FedRAMP)
-- III- AWS Native Security Tools
-- IV-  AWS DevOps Security  and DevOps Security Pipeline
-- V-   AWS CLI
-- VI-  Python tools and development
+1. Part I. Understanding  Cloud Computing Model Customer Responsibilities, and AWS Security Competency
 
-## Part II . Understanding Cloud Computing Models , Customer Responsibilities, and AWS Security Competency
+2. Part II. Technical Competencies
 
-## Part I 
+  2.1 Security Frameworks and  Guidelines(OWASP, NIST, CIS and also AWS Security Best Practice for each service WhitePapers and blogs)
+  2.2 AWS Compliances and Standards for Certification (HIPAA, PCI, FedRAMP)
+  2.3 AWS Native Security Tools
+  2.4 AWS DevOps Security  and DevOps Security Pipeline, IaC
+  2.5 AWS CLI
+  2.6 Python tools and development
+  2.7 Everything is a big API ready for enginners to crete amazing stuff, but ...
+
+
+### Content
+
+
+#### Part I. Understanding  Cloud Computing Model Customer Responsibilities, and AWS Security Competency
+
+
+**Cloud Computing Models**
+
+![Cloud Computing Models](images/cloud_computing_models_iaas-paas-saas-comparison.jpg)
+
+**Cloud Computing Models , vs User/Cloud Provider Responsibilities**
+
+![Cloud Computing Models , vs User/Cloud Provider Responsibilities](images/cloud_computing_models_vs_responsabilities.png)
+
+**Differences between PaaS vs Serverless**
+
+![Differences between PaaS vs Serverless](images/serverless_vs_PaaS.png)
+
+**Understanding Strategy Security and AWS Security Competences**
+
+**AWS Strategic Security**
+
+![AWS Strategic Security](images/strategic_security.png)
+
+**AWS Strategic Competences**
+
+![AWS Strategic Competences](images/strategic_security.png)
+
+
+
+#### Part II .Technical Competencies
+
+It is importnat we clearly see these seve aspect reagrding Cloud, Cloud Development , DevOps, and Security.
+So let's mention them here one more time and try to understand the implication of each aspect and its importance
+
+  1. Security Frameworks and  Guidelines(OWASP, NIST, CIS and also AWS Security Best Practice for each service WhitePapers and blogs)
+  2. AWS Compliances and Standards for Certification (HIPAA, PCI, FedRAMP)
+  3. AWS Native Security Tools
+  4. AWS DevOps Security  and DevOps Security Pipeline, IaC
+  5. AWS CLI
+  6. Python tools and development
+  7. Everything is a big API ready for enginners to crete amazing stuff, but ...
 
 ## Implications
 
-As you can see from above there is a lot of implications in those six requirements.
+There are some  implications in those sevents aspects.
 
 Basically it's required for a security engineer not only the knowledge and understanding of security, but also a high level of skill for development, understanding of compliances tools and standards, knowledge of Security Frameworks , in top of understanding of AWS native tools, creation of DevOps Security Pipeline
 creation of IaC(terraform , cloud formation) and its verification, and  use of aws cli.
 
-Below are a more a more descriptive aspect of each point 
-
-## AWS Security Infrastructure
-
-- I-   Security Frameworks and  Guidelines(OWASP, NIST, CIS and also AWS Security Best Practice for each service WhitePapers and blogs)
-- II-  AWS Compliances and Standards for Certification (HIPAA,PCI, FedRAMP)
-- III- AWS Native Security Tools
-- IV-  AWS DevOps Security  and DevOps Security Pipeline
-- V-   AWS CLI
-- VI-  Python tools and development
+We will below how each aspect impact security and the whole cloud infraestructure and applications
 
 
 ### I- Security Frameworks and  Guidelines(OWASP, NIST, CIS)
@@ -71,9 +107,30 @@ You could follow the following guidelines to stablishes the security of your clo
 - AWS Security Blog
   - AWS Security Blog: https://aws.amazon.com/blogs/security/tag/devsecops/
 
+- AWS Well-Architedted Framework
+  Creating a software system is a lot like constructing a building. If the foundation is not solid, structural problems 
+  can undermine the integrity and function of   the building. When architecting technology solutions, if you neglect the 
+  five pillars of operational excellence, security, reliability, performance efficiency,     and cost optimization, it can 
+  become challenging to build a system that delivers on your expectations and requirements. Incorporating these pillars into 
+  your architecture will help you produce stable and efficient systems. This will allow you to focus on the other aspects 
+  of design, such as functional requirements.
+  
+  - Operational Excellence
+  - Security
+  - Reliability
+  - Performance Efficiency
+  - Cost Optimization
+
+    Learn More about this  [here](https://wa.aws.amazon.com/wat.pillars.wa-pillars.en.html)
+    
+    This image represent the AWS Well Architect Framework
+    ![AWS Well Architect Framework](https://wa.aws.amazon.com/wat.map.en.html)
+
 
 Take into account hat compliance Standards that we will analize in point II , as part of the regulatory obligations to be met by certains sectors or entity 
 could require an increase in the level of security, or even forbid the use of certains Cloud Offerings  alltoghether or limit the use of those offering to certain regions etc.
+
+
 
 ## II- AWS Compliances and Standards for Certification (HIPAA,PCI, FedRAMP)
 
@@ -180,26 +237,4 @@ Chef InSpec: execute scans against local or remote machines .
   - [Python Security Tools for AWS](https://github.com/toniblyx/my-arsenal-of-aws-security-tools)
 - You create your own tools when needed
 
-## Part 2- Understanding Cloud Computing Models , Customer Responsibilities, and AWS Security Competency
 
-### Cloud Computing Models
-
-![Cloud Computing Models](images/cloud_computing_models_iaas-paas-saas-comparison.jpg)
-
-### Cloud Computing Models , vs User/Cloud Provider Responsibilities
-
-![Cloud Computing Models , vs User/Cloud Provider Responsibilities](images/cloud_computing_models_vs_responsabilities.png)
-
-### Differences between PaaS vs Serverless
-
-![Differences between PaaS vs Serverless](images/serverless_vs_PaaS.png)
-
-## Understanding Strategy Security and AWS Security Competences
-
-### AWS Strategic Security
-
-![AWS Strategic Security](images/strategic_security.png)
-
-### AWS Strategic Competences
-
-![AWS Strategic Competences](images/strategic_security.png)
