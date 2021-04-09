@@ -4,19 +4,22 @@ Multiple times I have been forced to explain the complexity of AWS Cloud Securit
 But how that complexity could be understood with just a few steps and a general vision for someone who is trying to start doing this job in a day to day basis?
 For this I divided the DevOps security for  AWS Cloud in six aspects and two part 
 
+
 ## Index
+
 
 1. Part I. Understanding  Cloud Computing Model Customer Responsibilities, and AWS Security Competency
 
+
 2. Part II. Technical Competencies
 
-  2.1 Security Frameworks and  Guidelines(OWASP, NIST, CIS and also AWS Security Best Practice for each service WhitePapers and blogs)
-  2.2 AWS Compliances and Standards for Certification (HIPAA, PCI, FedRAMP)
-  2.3 AWS Native Security Tools
-  2.4 AWS DevOps Security  and DevOps Security Pipeline, IaC
-  2.5 AWS CLI
-  2.6 Python tools and development
-  2.7 Everything is a big API ready for enginners to crete amazing stuff, but ...
+  2.1. Security Frameworks and  Guidelines(OWASP, NIST, CIS and also AWS Security Best Practice for each service WhitePapers and blogs)
+  2.2. AWS Compliances and Standards for Certification (HIPAA, PCI, FedRAMP)
+  2.3. AWS Native Security Tools
+  2.4. AWS DevOps Security  and DevOps Security Pipeline, IaC
+  2.5. AWS CLI
+  2.6. Python tools and development
+  2.7. Everything is a big API ready for enginners to crete amazing stuff, but ...
 
 
 ### Content
@@ -62,7 +65,7 @@ So let's mention them here one more time and try to understand the implication o
   6. Python tools and development
   7. Everything is a big API ready for enginners to crete amazing stuff, but ...
 
-## Implications
+**Implications**
 
 There are some  implications in those sevents aspects.
 
@@ -72,7 +75,7 @@ creation of IaC(terraform , cloud formation) and its verification, and  use of a
 We will below how each aspect impact security and the whole cloud infraestructure and applications
 
 
-### I- Security Frameworks and  Guidelines(OWASP, NIST, CIS)
+#### I- Security Frameworks and  Guidelines(OWASP, NIST, CIS)
 
 You could follow the following guidelines to stablishes the security of your cloud infraestructure
 
@@ -132,7 +135,7 @@ could require an increase in the level of security, or even forbid the use of ce
 
 
 
-## II- AWS Compliances and Standards for Certification (HIPAA,PCI, FedRAMP)
+#### II- AWS Compliances and Standards for Certification (HIPAA,PCI, FedRAMP)
 
  [References](https://aws.amazon.com/compliance/)
  
@@ -167,7 +170,7 @@ Compliance Programs could :
 
 
 
-### III- AWS Native Security Tools
+#### III- AWS Native Security Tools
 
 -	Each Service has its own security concerns that we should look in AWS documentation.
   -	AWS CloudWatch:   https://aws.amazon.com/cloudwatch/
@@ -181,7 +184,7 @@ Compliance Programs could :
   -	AWS Macie:        https://aws.amazon.com/macie/
   -	AWS X-Ray:        https://aws.amazon.com/xray/
 
-### IV- AWS DevOps Security  and DevOps Security Pipeline
+#### IV- AWS DevOps Security  and DevOps Security Pipeline
 
 Ref: https://github.com/david68cu/aws-architect-project3-Implementing-Security
 
@@ -193,11 +196,11 @@ Four Aspect to take into account for a technician from a practical perspective
 - IV.4 Qualys Virtual Scanner Appliance HVM 
 
 
-#### IV.1- AWS DevOps Security Pipeline
+##### IV.1- AWS DevOps Security Pipeline
 
 ![Dev Sec Operations Pipeline](images/DevSecOpsPipline.png)
 
-#### IV.2 Infrastructure as Code Scanning Tools
+##### IV.2 Infrastructure as Code Scanning Tools
 
 - CloudFormation scanning tools Ex: Cfripper. Some of the compliance violation or vulnerability which it might expose.
 
@@ -213,23 +216,23 @@ Four Aspect to take into account for a technician from a practical perspective
   - Scanning of Kubernetes (JSON/YAML), Helm v3, and Kustomize v3
   - Support for AWS, Azure, GCP, Kubernetes and GitHub
 
-#### IV.3 Scan containers for OS Vulnerabilities
+##### IV.3 Scan containers for OS Vulnerabilities
 
 Chef InSpec: execute scans against local or remote machines .
 
-#### IV.4 Qualys Virtual Scanner Appliance HVM
+##### IV.4 Qualys Virtual Scanner Appliance HVM
 
 - Qualys provides a cloud agent that can be installed either on EC2 or at the source into AMI for automated asset discovery ,classification, monitoring, and vulnerability remediation.
   -	What ports are open in an instance?
   - What ports are listening for connections?
 
 
-## V- AWS CLI 
+#### V- AWS CLI 
 
 -	Programmatically accessing multiple aws api to retrieve information about the services they offer
 -	Programmatically accessing multiple aws sdk to configure new services
 
-## VI- Python tools, programming and integrations
+#### VI- Python tools, programming and integrations
 
 - One of the most powerful skills you can have is being a good developer
 - You are able to create APIs, Cloud Applications , Serverless, Containers, Understand IaC CloudFormation or Terraform and Integrate AI/ML and understand architecture principles in AWS
