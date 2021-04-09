@@ -13,13 +13,13 @@ For this I divided the DevOps security for  AWS Cloud in six aspects and two par
 
 2. Part II. Technical Competencies
 
-  2.1. Security Frameworks and  Guidelines(OWASP, NIST, CIS and also AWS Security Best Practice for each service WhitePapers and blogs)
-  2.2. AWS Compliances and Standards for Certification (HIPAA, PCI, FedRAMP)
-  2.3. AWS Native Security Tools
-  2.4. AWS DevOps Security  and DevOps Security Pipeline, IaC
-  2.5. AWS CLI
-  2.6. Python tools and development
-  2.7. Everything is a big API ready for enginners to crete amazing stuff, but ...
+  - 2.1. Security Frameworks and  Guidelines(OWASP, NIST, CIS and also AWS Security Best Practice for each service WhitePapers and blogs)
+  - 2.2. AWS Compliances and Standards for Certification (HIPAA, PCI, FedRAMP)
+  - 2.3. AWS Native Security Tools
+  - 2.4. AWS DevOps Security  and DevOps Security Pipeline, IaC
+  - 2.5. AWS CLI
+  - 2.6. Python tools and development
+  - 2.7. Everything is a big API ready for enginners to crete amazing stuff, but ...
 
 
 ### Content
