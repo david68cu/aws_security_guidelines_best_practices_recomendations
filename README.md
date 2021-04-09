@@ -93,9 +93,9 @@ You could follow the following guidelines to stablishes the security of your clo
   - (https://www.cisecurity.org/benchmark/docker/)
 
 - [OWASP AWS documents in Archive](https://owasp.org/www-pdf-archive/)
-  - 1- (https://owasp.org/www-pdf-archive//AWS_Security_-_Staying_on_Top_of_the_Cloud.pdf
-  - 2- https://owasp.org/www-pdf-archive//Aws_security_joel_leino.pdf
-  - 3- https://owasp.org/www-pdf-archive//OWASP_Toronto_-_Aug_2017_-_Cloud_Security_&_Best_Practice_in_AWS_by_Ankit_Giri.pdf
+  - [Staying on Top of the Cloud](https://owasp.org/www-pdf-archive//AWS_Security_-_Staying_on_Top_of_the_Cloud.pdf)
+  - [AWS Security by Joel Leino]https://owasp.org/www-pdf-archive//Aws_security_joel_leino.pdf)
+  - [Cloud Security & Best Practice in AWS](https://owasp.org/www-pdf-archive//OWASP_Toronto_-_Aug_2017_-_Cloud_Security_&_Best_Practice_in_AWS_by_Ankit_Giri.pdf)
 
 - AWS Security Best Practice(SBP) and Recomendations for each service
   - [Security Best Practices for Amazon S3](https://aws.amazon.com/s3/security/?nc=sn&loc=5)
@@ -108,7 +108,7 @@ You could follow the following guidelines to stablishes the security of your clo
   - A collection of AWS Whitepapers where we can filter for security concersn at https://aws.amazon.com/whitepapers/
 
 - AWS Security Blog
-  - AWS Security Blog: https://aws.amazon.com/blogs/security/tag/devsecops/
+  - [AWS Security Blog](https://aws.amazon.com/blogs/security/tag/devsecops/)
 
 - AWS Well-Architedted Framework
   Creating a software system is a lot like constructing a building. If the foundation is not solid, structural problems 
@@ -126,8 +126,9 @@ You could follow the following guidelines to stablishes the security of your clo
 
     Learn More about this  [here](https://wa.aws.amazon.com/wat.pillars.wa-pillars.en.html)
     
-    This image represent the AWS Well Architect Framework
-    ![AWS Well Architect Framework](https://wa.aws.amazon.com/wat.map.en.html)
+    This image represent the AWS Well Architect Framework:
+    
+    [AWS Well Architect Framework](https://wa.aws.amazon.com/wat.map.en.html)
 
 
 Take into account hat compliance Standards that we will analize in point II , as part of the regulatory obligations to be met by certains sectors or entity 
@@ -139,15 +140,15 @@ could require an increase in the level of security, or even forbid the use of ce
 
  [References](https://aws.amazon.com/compliance/)
  
-- 1	The Federal Risk and Authorization Management Program (FedRAMP) is a US government-wide program that delivers a standard approach to the security assessment, authorization, and continuous monitoring for cloud products and services
-- 2	FedRAMP documents https://d1.awsstatic.com/whitepapers/compliance/Guidance_for_Trusted_Internet_Connection_TIC_Readiness_on_AWS.pdf
-- 3	HIPAA https://aws.amazon.com/compliance/hipaa-compliance/
-  - 3.1 HIPAA Architecture Compliance https://aws.amazon.com/quickstart/architecture/compliance-hipaa/
-    - 3.1.1 See in above link Security Mapping Control and Deployment Guide
-  - 3.2 AWS HIPAA Compliance Whitepaper https://d1.awsstatic.com/whitepapers/compliance/AWS_HIPAA_Compliance_Whitepaper.pdf
-- 4	PCI https://aws.amazon.com/compliance/pci-dss-level-1-faqs/
-- 5	FedRAMP https://aws.amazon.com/compliance/fedramp/
-- 6 AWS Services in Scope by Compliance Program https://aws.amazon.com/compliance/services-in-scope/
+1.	The Federal Risk and Authorization Management Program (FedRAMP) is a US government-wide program that delivers a standard approach to the security assessment, authorization, and continuous monitoring for cloud products and services
+2.	FedRAMP documents https://d1.awsstatic.com/whitepapers/compliance/Guidance_for_Trusted_Internet_Connection_TIC_Readiness_on_AWS.pdf
+3.	HIPAA https://aws.amazon.com/compliance/hipaa-compliance/
+   3.1 HIPAA Architecture Compliance https://aws.amazon.com/quickstart/architecture/compliance-hipaa/
+     3.1.1 See in above link Security Mapping Control and Deployment Guide
+   3.2 AWS HIPAA Compliance Whitepaper https://d1.awsstatic.com/whitepapers/compliance/AWS_HIPAA_Compliance_Whitepaper.pdf
+4.	PCI https://aws.amazon.com/compliance/pci-dss-level-1-faqs/
+5.	FedRAMP https://aws.amazon.com/compliance/fedramp/
+6. AWS Services in Scope by Compliance Program https://aws.amazon.com/compliance/services-in-scope/
 
 Compliance Programs could :
 
