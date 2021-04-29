@@ -54,7 +54,7 @@ For this I divided the DevOps security for  AWS Cloud in six aspects and two par
 
 #### Part II .Technical Competencies
 
-It is importnat we clearly see these seve aspect reagrding Cloud, Cloud Development , DevOps, and Security.
+It is important we clearly see these seven aspects regarding Cloud, Cloud Development , DevOps, and Security.
 So let's mention them here one more time and try to understand the implication of each aspect and its importance
 
   1. Security Frameworks and  Guidelines(OWASP, NIST, CIS and also AWS Security Best Practice for each service WhitePapers and blogs)
@@ -63,7 +63,7 @@ So let's mention them here one more time and try to understand the implication o
   4. AWS DevOps Security  and DevOps Security Pipeline, IaC
   5. AWS CLI
   6. Python tools and development
-  7. Everything is a big API ready for enginners to crete amazing stuff, but ...
+  7. Everything is a big API ready for enginners to CREATE, and be COMBINED so any engineer in any filed could create amazing stuff for its clients.
 
 **Implications**
 
@@ -174,6 +174,7 @@ Compliance Programs could :
 #### III- AWS Native Security Tools
 
 -	Each Service has its own security concerns that we should look in AWS documentation.
+
   -	AWS CloudWatch:   https://aws.amazon.com/cloudwatch/
   -	AWS CloudTrail:   https://aws.amazon.com/cloudtrail/
   -	AWS Config:       https://aws.amazon.com/config/
@@ -184,6 +185,9 @@ Compliance Programs could :
   -	AWS Security Hub: https://aws.amazon.com/security-hub/
   -	AWS Macie:        https://aws.amazon.com/macie/
   -	AWS X-Ray:        https://aws.amazon.com/xray/
+  -	AWS Secret:       https://aws.amazon.com/secrets-manager/
+  -	AWS KMS:          https://aws.amazon.com/kms/   
+  -	AWS Detective:    https://aws.amazon.com/detective/     
 
 #### IV- AWS DevOps Security  and DevOps Security Pipeline
 
